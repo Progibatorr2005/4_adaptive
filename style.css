@@ -91,7 +91,6 @@ main{
 .main__container{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
 }
 
 .heading__p--img{
@@ -118,18 +117,25 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     font-weight: 100;
-    margin: 30px 16px 0px 16px;
+    margin: 0px 16px;
     max-width: 288px;
 }
 
 .heading__p--dalee{
     display: flex;
+    margin: 20px 0 20px 0;
     gap: 8px;
 }
 
 .heading__p--dalee img{
     width: 24px;
     height: 24px;
+}
+
+.heading__p--dalee h3{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 @media (min-width:768px){
