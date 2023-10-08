@@ -69,6 +69,10 @@ main{
     gap: 10px;
   }
 
+  .scroll-top:-webkit-scrollbar{
+    width: 0;
+  }
+
 .scroll-top__button{
     min-width: 246px;
     height: 40px;
@@ -106,7 +110,7 @@ main{
 
 @media (min-width:768px){
     .header{
-
+        background-color: #4A412A;
     }
     
 }
